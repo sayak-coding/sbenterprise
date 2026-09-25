@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact | S. B. Enterprise</title>
+<meta name="description" content="Contact S. B. Enterprise for product details, quotations or any enquiry about stockinette rolls.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="logo" viewBox="0 0 48 48"><path d="M24 2l22 22-22 22L2 24z" fill="none" stroke="#c9a063" stroke-width="1.5"/><text x="24" y="30" text-anchor="middle" font-family="Cormorant Garamond,serif" font-size="18" font-weight="700" fill="#e2c18a">SB</text></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s7-6.2 7-11.5A7 7 0 005 9.5C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 005 5L15 13l5 2v4a2 2 0 01-2 2A15 15 0 013 6a2 2 0 012-2z"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="1"/><path d="M3 7l9 6 9-6"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+</svg>
+
+<header class="hdr">
+  <div class="wrap">
+    <a class="brand" href="index.html" aria-label="S. B. Enterprise home">
+      <svg><use href="#logo"/></svg>
+      <span><b>S. B. ENTERPRISE</b><small>Stockinette Rolls Specialists</small></span>
+    </a>
+    <button class="burger" aria-label="Menu" aria-expanded="false"><svg class="ico"><use href="#i-menu"/></svg></button>
+    <nav class="nav" aria-label="Main">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="products.html">Products</a>
+      <a href="applications.html">Applications</a>
+      <a href="quality.html">Quality</a>
+      <a class="on" href="contact.html">Contact</a>
+      <a class="btn sm" href="contact.html">Request a Quote</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="phero">
+  <div class="phero-bg">
+    <img src="https://images.unsplash.com/photo-1571115764595-644a1f56a55c?w=1600&q=80&fit=crop" alt="Business partnership handshake" loading="eager">
+  </div>
+  <div class="wrap">
+    <p class="eyebrow rise">Contact</p>
+    <h1 class="rise">Let's Discuss Your Requirement</h1>
+    <p class="sub rise">We're here to help. Get in touch for product details, quotations or any other enquiries.</p>
+    <p class="crumbs rise"><a href="index.html">Home</a><span>/</span>Contact</p>
+  </div>
+</section>
+
+<section class="sec">
+  <div class="wrap cgrid">
+    <form class="form reveal-left" id="enq" novalidate data-email="info@sbenterprise.in" data-endpoint="">
+      <h2>Send Us a Message</h2>
+      <div class="fields">
+        <div><label for="name">Name <i>*</i></label><input id="name" name="Name" type="text" autocomplete="name" required></div>
+        <div><label for="company">Company <i>*</i></label><input id="company" name="Company" type="text" autocomplete="organization" required></div>
+        <div><label for="phone">Phone / WhatsApp <i>*</i></label><input id="phone" name="Phone / WhatsApp" type="tel" autocomplete="tel" required></div>
+        <div><label for="email">Email <i>*</i></label><input id="email" name="Email" type="email" autocomplete="email" required></div>
+        <div><label for="product">Product Requirement <i>*</i></label>
+          <select id="product" name="Product" required>
+            <option value="">Select an option</option>
+            <option>Standard Stockinette Rolls</option>
+            <option>Custom Specifications</option>
+            <option>Industrial Stockinette Rolls</option>
+            <option>Bulk Supply</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div><label for="qty">Quantity / Specification <i>*</i></label><input id="qty" name="Quantity / Specification" type="text" autocomplete="off" required></div>
+        <div class="full"><label for="msg">Message <i>*</i></label><textarea id="msg" name="Message" required></textarea></div>
+      </div>
+      <button class="btn" type="submit">Send Enquiry</button>
+      <p class="fstatus" role="status" aria-live="polite"></p>
+    </form>
+
+    <aside class="cinfo reveal-right">
+      <h2>Get in Touch</h2>
+      <ul>
+        <li><svg class="ico"><use href="#i-pin"/></svg><p><b>S. B. Enterprise</b><span>Kolkata, West Bengal, India</span></p></li>
+        <li><svg class="ico"><use href="#i-phone"/></svg><p><b>Phone</b><a href="tel:+919876543210">+91 98765 43210</a></p></li>
+        <li><svg class="ico"><use href="#i-mail"/></svg><p><b>Email</b><a href="mailto:info@sbenterprise.in">info@sbenterprise.in</a></p></li>
+        <li><svg class="ico"><use href="#i-clock"/></svg><p><b>Business hours</b><span>Mon – Sat, 10:00 AM – 6:00 PM</span></p></li>
+      </ul>
+
+      <!-- PHOTO below contact details -->
+      <div style="margin-top:28px;overflow:hidden;border:1px solid var(--line);aspect-ratio:16/9">
+        <img src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=700&q=80&fit=crop"
+             alt="S. B. Enterprise facility" loading="lazy"
+             style="width:100%;height:100%;object-fit:cover;display:block;transition:transform .8s var(--ease-out-expo)"
+             onmouseover="this.style.transform='scale(1.06)'"
+             onmouseout="this.style.transform='scale(1)'">
+      </div>
+
+      <div class="map" style="margin-top:20px">
+        <iframe title="S. B. Enterprise location, Kolkata" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=Kolkata,West+Bengal&output=embed"></iframe>
+        <a href="https://www.google.com/maps/search/?api=1&query=Kolkata+West+Bengal" target="_blank" rel="noopener">View on Google Maps</a>
+      </div>
+    </aside>
+  </div>
+</section>
+</main>
+
+<footer class="ftr">
+  <div class="wrap">
+    <div class="fgrid">
+      <div><div class="brand"><svg><use href="#logo"/></svg><span><b>S. B. ENTERPRISE</b><small>Quality Stockinette. Built on trust.</small></span></div></div>
+      <div><h4>Company</h4><ul><li><a href="about.html">About Us</a></li><li><a href="products.html">Products</a></li><li><a href="quality.html">Quality</a></li><li><a href="applications.html">Applications</a></li></ul></div>
+      <div><h4>Contact</h4><ul><li><a href="tel:+919876543210">+91 98765 43210</a></li><li><a href="mailto:info@sbenterprise.in">info@sbenterprise.in</a></li><li>Kolkata, West Bengal</li></ul></div>
+      <div><h4>Legal</h4><ul><li><a href="#">Privacy Policy</a></li><li><a href="#">Terms &amp; Conditions</a></li></ul></div>
+    </div>
+    <p class="copy">© <span id="yr">2026</span> S. B. Enterprise. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
